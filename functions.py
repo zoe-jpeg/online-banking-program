@@ -11,6 +11,7 @@ italics = '\033[3m'
 underline = '\033[4m'
 end = '\033[0m'
 
+#introduction function / greet user
 def introduction():
      os.system("clear")
      intro = "Welcome to Incognito Banking."
@@ -29,6 +30,7 @@ def introduction():
           sys.stdout.write(blue + italics + letter + end)
           sys.stdout.flush()
           time.sleep(0.07)
+     print()
 
 def user_login():
      os.system("clear")
@@ -36,6 +38,3 @@ def user_login():
      print()
      account_number = input("Account Number: ")
      pin_number = input("PIN: ")
-
-introduction()
-user_login()
