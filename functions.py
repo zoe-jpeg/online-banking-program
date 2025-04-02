@@ -11,7 +11,7 @@ italics = '\033[3m'
 underline = '\033[4m'
 end = '\033[0m'
 
-introduction():
+def introduction():
      os.system("clear")
      intro = "Welcome to Incognito Banking."
      for letter in intro:
@@ -30,3 +30,12 @@ introduction():
           sys.stdout.flush()
           time.sleep(0.07)
 
+def user_login():
+     os.system("clear")
+     print(bold + "LOGIN TO YOUR ACCOUNT" + end)
+     print()
+     account_number = input("Account Number: ")
+     pin_number = input("PIN: ")
+
+introduction()
+user_login()
