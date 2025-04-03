@@ -1,4 +1,6 @@
 import functions as fn
+import time
 
 fn.introduction()
-fn.display_menu()
+time.sleep(2)
+fn.user_login()

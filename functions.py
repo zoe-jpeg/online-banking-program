@@ -14,13 +14,13 @@ end = '\033[0m'
 #introduction function / greet user
 def introduction():
      os.system("clear")
-     intro = "Welcome to Incognito Banking."
+     intro = "Welcome to Cognito Inc. Banking."
      for letter in intro:
           sys.stdout.write(bold + letter + end)
           sys.stdout.flush()
           time.sleep(0.07)
 
-     time.sleep(2)
+     time.sleep(1.2)
 
      print()
      print()
@@ -34,7 +34,12 @@ def introduction():
 
 def user_login():
      os.system("clear")
-     print(bold + "LOGIN TO YOUR ACCOUNT" + end)
+     message = "LOGIN TO YOUR ACCOUNT"
+     for letter in message:
+          sys.stdout.write(bold + letter + end)
+          sys.stdout.flush()
+          time.sleep(0.07)
+     time.sleep(0.8)
      print()
-     account_number = input("Account Number: ")
+     account_number = input("\nAccount Number: ")
      pin_number = input("PIN: ")
