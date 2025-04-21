@@ -1,0 +1,8 @@
+code to write:
+     - database functions:
+          - create a new account
+          - add new account to database
+          - delete accounts from database
+          - add and subtract from total
+          - transfer money from one account to another
+     - create UI

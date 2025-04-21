@@ -1,7 +1,7 @@
 from tkinter import *
 
 window = Tk()
-window.geometry("420x420")
+window.geometry("420x500")
 window.title("Cognito Banking")
 
 #icon = PhotoImage(file="https://img.wattpad.com/cover/335644642-256-k510095.jpg")
